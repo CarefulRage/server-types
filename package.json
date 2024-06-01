@@ -1,6 +1,6 @@
 {
 	"name": "@carefulrage/server-types",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "RAGE:MP types definitions for serverside",
 	"main": "index.d.ts",
 	"repository": {
