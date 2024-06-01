@@ -1,0 +1,60 @@
+{
+	"name": "@carefulrage/server-types",
+	"version": "0.0.1",
+	"description": "RAGE:MP types definitions for serverside",
+	"main": "index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CarefulRage/server-types.git"
+	},
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/commit-analyzer": "^12.0.0",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^10.0.3",
+		"@semantic-release/npm": "^12.0.1",
+		"@semantic-release/release-notes-generator": "^13.0.0",
+		"semantic-release": "^23.0.8"
+	},
+	"files": [
+		"index.d.ts",
+		"src"
+	],
+	"author": {
+		"name": "Paolo Fernetti",
+		"email": "paolofernetti@yandex.ru",
+		"url": "https://github.com/PaoloFernetti"
+	},
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"release": {
+		"branches": [
+			"release"
+		],
+		"ci": true,
+		"repositoryUrl": "https://github.com/PaoloFernetti/Limitless.git",
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
+			[
+				"@semantic-release/changelog",
+				{
+					"changelogFile": "CHANGELOG.md"
+				}
+			],
+			"@semantic-release/npm",
+			"@semantic-release/github",
+			[
+				"@semantic-release/git",
+				{
+					"assets": [
+						"CHANGELOG.md",
+						"package.json"
+					]
+				}
+			]
+		]
+	}
+}
