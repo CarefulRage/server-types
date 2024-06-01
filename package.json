@@ -37,7 +37,7 @@
 			"main"
 		],
 		"ci": true,
-		"repositoryUrl": "https://github.com/PaoloFernetti/Limitless.git",
+		"repositoryUrl": "https://github.com/CarefulRage/server-types.git",
 		"plugins": [
 			"@semantic-release/commit-analyzer",
 			"@semantic-release/release-notes-generator",
