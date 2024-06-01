@@ -34,7 +34,7 @@
 	},
 	"release": {
 		"branches": [
-			"release"
+			"main"
 		],
 		"ci": true,
 		"repositoryUrl": "https://github.com/PaoloFernetti/Limitless.git",
