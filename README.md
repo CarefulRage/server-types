@@ -6,17 +6,15 @@ Remember to 🌟 this GitHub if you 💖 it.
 
 #### `SERVER-SIDE`
 
-:fire: Use `github:ragempcommunity/ragemp-types#types-server` to latest build
-
 ```bash
 # With npm
-npm i --save-dev @ragempcommunity/types-server
+npm i --save-dev @carefulrage/server-types
 
 # With yarn
-yarn add -D @ragempcommunity/types-server
+yarn add -D @carefulrage/server-types
 
 # With pnpm
-pnpm add -D @ragempcommunity/types-server
+pnpm add -D @carefulrage/server-types
 ```
 
 ## 🤓 Usage
@@ -92,8 +90,6 @@ declare global {
 
 export {};
 ```
-
-See: [RAGEMP Typescript Boilerplate](https://github.com/ragempcommunity/ragemp-typescript)
 
 ## 👨‍💻 Contributing
 
