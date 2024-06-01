@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CarefulRage/server-types/compare/v1.0.0...v1.1.0) (2024-06-01)
+
+
+### Features
+
+* rework README.md ([5655abd](https://github.com/CarefulRage/server-types/commit/5655abd1b64af26abe2f3a71543ccdb2e487fbc5))
+
 # 1.0.0 (2024-06-01)
 
 
